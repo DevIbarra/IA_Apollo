@@ -14,8 +14,9 @@ MODEL = os.getenv("MISTRAL_CHAT_MODEL", "MISTRAL_CHAT_MODEL_SMALL")
 
 # 🔹 Registro das funções
 NAMES_TO_FUNCTIONS = {
-    "get_conta_tool": get_conta_tool,
-    "get_todas_contas_tool": get_todas_contas_tool
+    "set_conta_tool": set_conta_tool,
+    "get_valor_total_contas_tool": get_valor_total_contas_tool,
+    "get_contas_detalhada_tool": get_contas_detalhada_tool
 }
 
 
