@@ -1,5 +1,6 @@
 from decimal import Decimal
 from datetime import datetime
+from typing import Optional
 
 from App.Log.Logs import ferramentas_logger
 from App.Query.Querys import *
@@ -45,3 +46,11 @@ def get_contas_detalhada_tool(limite=200):
         )
 
     return "\n".join(linhas)
+
+# dela alguma conta
+def remove_conta_tool(id: int):
+    return remove_conta(id)
+
+# Altera conta já existente
+def altera_conta_tool(id: int, valor: Optional[float] = None, descricao: Optional[str] = None):
+    return altera_conta(id=id, valor=valor, descricao=descricao)

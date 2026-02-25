@@ -45,5 +45,38 @@ TOOLS = [
         "required": []
       }
     }
+  },
+    {
+      "type": "function",
+      "function": {
+          "name": "remove_conta_tool",
+          "description": "Remove um registro da tabela valor_gasto pelo id.",
+          "parameters": {
+              "type": "object",
+              "properties": {
+                  "id": {
+                      "type": "integer",
+                      "description": "ID do registro em valor_gasto que será removido."
+                  }
+              },
+              "required": ["id"]
+          }
+      }
+  },
+    {
+    "type": "function",
+    "function": {
+      "name": "altera_conta_tool",
+      "description": "Atualiza um gasto/conta existente no banco. Pode atualizar valor e/ou descricao. Só altera campos enviados.",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "id": {"type": "integer", "description": "ID do registro a ser atualizado"},
+          "valor": {"type": "number", "description": "Novo valor (opcional)"},
+          "descricao": {"type": "string", "description": "Nova descrição (opcional)"}
+        },
+        "required": ["id"]
+      }
+    }
   }
 ]

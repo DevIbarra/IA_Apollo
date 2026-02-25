@@ -179,3 +179,137 @@
 2026-02-23 03:12:40,071 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
 2026-02-23 03:12:40,521 | INFO | DataBase.DataBase | Cursor fechado
 2026-02-23 03:12:40,522 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 03:28:30,675 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 03:28:31,185 | INFO | DataBase.DataBase | Cursor fechado
+2026-02-23 03:28:31,185 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 03:28:32,678 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 03:28:33,022 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 03:28:35,165 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 03:28:35,605 | INFO | DataBase.DataBase | Cursor fechado
+2026-02-23 03:28:35,605 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 03:28:43,753 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 03:28:44,198 | INFO | DataBase.DataBase | Cursor fechado
+2026-02-23 03:28:44,199 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 03:28:45,726 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 03:28:46,032 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 03:28:51,851 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 03:28:52,312 | INFO | DataBase.DataBase | Cursor fechado
+2026-02-23 03:28:52,313 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 03:29:19,449 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 03:29:19,891 | INFO | DataBase.DataBase | Cursor fechado
+2026-02-23 03:29:19,892 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 03:29:21,790 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 03:29:22,238 | INFO | DataBase.DataBase | Cursor fechado
+2026-02-23 03:29:22,238 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:03:57,269 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:03:57,758 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:03:59,525 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:03:59,972 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:04:13,212 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:04:13,665 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:04:17,443 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:04:17,764 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:05:43,075 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:05:43,535 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:05:45,229 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:05:45,684 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:05:50,819 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:05:51,264 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:05:52,733 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:05:53,028 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:05:55,972 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:05:56,414 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:06:40,687 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:06:41,143 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:06:42,768 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:06:43,064 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:06:48,092 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:06:48,544 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:07:07,261 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:07:07,706 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 13:07:09,639 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 13:07:10,094 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:22:37,608 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:22:38,074 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:22:39,925 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:22:40,371 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:22:50,359 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:22:50,817 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:22:52,896 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:22:53,356 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:23:20,715 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:23:21,169 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:23:22,782 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:23:23,244 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:23:24,751 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:23:25,196 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:25:51,151 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:25:51,605 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:33:39,105 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:33:39,551 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:33:41,168 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:33:41,472 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:33:42,907 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:33:43,355 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:33:57,045 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:33:57,489 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:33:58,994 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:33:59,297 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 14:34:04,693 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 14:34:05,142 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:07:31,973 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:07:32,587 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:07:34,840 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:07:35,249 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:07:37,135 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:07:37,597 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:07:50,112 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:07:50,563 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:07:52,154 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:07:52,465 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:08:00,812 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:08:01,270 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:45:25,865 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:45:26,371 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:45:31,814 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:45:32,130 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:45:40,059 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:45:40,586 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:45:50,866 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:45:51,375 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:45:54,036 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:45:54,531 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:45:57,334 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:45:58,014 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:46:05,910 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:46:06,380 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:46:08,129 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:46:08,438 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:46:14,489 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:46:14,963 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:46:44,154 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:46:44,615 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:46:46,992 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:46:47,458 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:58:54,663 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:58:55,322 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:58:57,421 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:58:57,987 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:59:09,815 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:59:10,275 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:59:11,852 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:59:12,152 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:59:20,248 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:59:20,696 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:59:32,472 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:59:32,921 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:59:34,648 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:59:35,111 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:59:36,807 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:59:37,259 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:59:43,629 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:59:44,092 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:59:46,223 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:59:46,772 | INFO | DataBase.DataBase | Conexão fechada
+2026-02-23 18:59:53,229 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-02-23 18:59:53,796 | INFO | DataBase.DataBase | Conexão fechada

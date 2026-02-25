@@ -9,14 +9,17 @@ from App.Utils.Tools import TOOLS
 load_dotenv()
 
 client = Mistral(api_key=os.getenv("MISTRAL_API_KEY"))
-MODEL = os.getenv("MISTRAL_CHAT_MODEL", "MISTRAL_CHAT_MODEL_SMALL")
+MODEL = os.getenv("MISTRAL_CHAT_MODEL") or os.getenv("MISTRAL_CHAT_MODEL_SMALL")
+
 
 
 # 🔹 Registro das funções
 NAMES_TO_FUNCTIONS = {
     "set_conta_tool": set_conta_tool,
     "get_valor_total_contas_tool": get_valor_total_contas_tool,
-    "get_contas_detalhada_tool": get_contas_detalhada_tool
+    "get_contas_detalhada_tool": get_contas_detalhada_tool,
+    "remove_conta_tool": remove_conta_tool,
+    "altera_conta_tool": altera_conta_tool
 }
 
 
