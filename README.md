@@ -17,15 +17,15 @@ O projeto explora a construção de **AI Agents capazes de compreender solicita�
 
 # 🧠 Arquitetura do sistema
 Usuário
-↓
+→
 LLM
-↓
+→
 Agente (interpretação do comando)
-↓
+→
 Sistema RAG
-↓
+→
 Database
-↓
+→
 PostgreSQL
 
 ---
@@ -53,8 +53,8 @@ liste minhas despesas
 
 Apollo:
 1-Mercado - R$ 320
-2-Combustível - R$ 400
-3-Internet - R$ 120
+| 2-Combustível - R$ 400
+| 3-Internet - R$ 120
 
 ---
 
