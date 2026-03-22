@@ -1,0 +1,107 @@
+2026-03-22 00:55:43,316 | ERROR | DataBase.DataBase | Erro ao conectar no banco
+Traceback (most recent call last):
+  File "/home/ibarra/Dev/Apollo_IA/App/Data/Banco.py", line 29, in connect
+    self.connection = psycopg2.connect(
+                      ^^^^^^^^^^^^^^^^^
+  File "/home/ibarra/Dev/Apollo_IA/venv/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "aws-1-us-east-1.pooler.supabase.com" (18.213.155.45), port 6543 failed: FATAL:  Tenant or user not found
+connection to server at "aws-1-us-east-1.pooler.supabase.com" (18.213.155.45), port 6543 failed: FATAL:  Tenant or user not found
+
+2026-03-22 01:01:14,279 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:01:14,736 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:01:17,202 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:01:17,651 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:04:41,354 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:04:41,866 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:04:44,752 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:04:45,203 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:05:23,355 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:05:23,867 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:05:28,676 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:05:29,134 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:05:49,116 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:05:49,571 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:05:51,659 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:05:52,106 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:05:58,461 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:05:58,910 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:06:05,283 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:06:06,154 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:06:07,947 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:06:08,396 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:08:55,277 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:08:55,731 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:08:57,497 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:08:57,945 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:09:07,083 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:09:07,540 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:09:10,089 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:09:10,538 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:15:58,206 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:15:58,670 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:16:01,171 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:16:01,618 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:17:02,277 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:17:02,733 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:17:05,329 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:17:05,781 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:17:16,227 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:17:16,680 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:18:04,403 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:18:04,848 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:18:06,945 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:18:07,392 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:18:21,029 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:18:21,485 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:18:25,843 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:18:26,292 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:18:27,943 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:18:28,395 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:19:42,797 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:19:43,245 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:19:44,952 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:19:45,253 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:19:47,025 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:19:47,478 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:22:56,742 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:22:57,269 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:22:59,724 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:23:00,197 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:30:49,524 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:30:49,975 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:30:52,612 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:30:53,062 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:35:52,957 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:35:53,441 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:35:56,334 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:35:56,820 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:35:58,639 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:35:59,087 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:36:29,874 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:36:30,324 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:36:31,828 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:36:32,148 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:36:35,841 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:36:36,300 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:39:43,673 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:39:44,122 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:39:46,755 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:39:47,203 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:39:49,059 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:39:49,507 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:40:16,178 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:40:16,628 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:40:18,437 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:40:18,739 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:40:21,462 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:40:21,912 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:41:05,713 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:41:06,175 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:41:08,261 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:41:08,714 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:41:21,857 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:41:22,303 | INFO | DataBase.DataBase | Conexão fechada
+2026-03-22 01:41:24,912 | INFO | DataBase.DataBase | Conectado ao banco com sucesso
+2026-03-22 01:41:25,369 | INFO | DataBase.DataBase | Conexão fechada

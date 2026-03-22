@@ -12,18 +12,18 @@ client = Mistral(api_key=os.getenv("MISTRAL_API_KEY"))
 MODEL = os.getenv("MISTRAL_CHAT_MODEL") or os.getenv("MISTRAL_CHAT_MODEL_SMALL")
 
 
-
-# 🔹 Registro das funções
 NAMES_TO_FUNCTIONS = {
     "set_conta_tool": set_conta_tool,
     "get_valor_total_contas_tool": get_valor_total_contas_tool,
     "get_contas_detalhada_tool": get_contas_detalhada_tool,
     "remove_conta_tool": remove_conta_tool,
-    "altera_conta_tool": altera_conta_tool
+    "altera_conta_tool": altera_conta_tool,
+    "agenda_evento_tool": agenda_evento_tool,
+    "data_atual_tool": data_atual_tool,
+    "todo_compromissos_tool": todo_compromissos_tool,
 }
 
 
-# 🔹 Roteador de tool call
 def run_tool_call(tool_call):
     fn_name = tool_call.function.name
     args = tool_call.function.arguments
@@ -37,28 +37,35 @@ def run_tool_call(tool_call):
     return NAMES_TO_FUNCTIONS[fn_name](**args)
 
 
-# 🔹 Função principal da IA
 def chamar_agente_llm(history: list, texto_usuario: str) -> str:
-    # 1) adiciona user
     history.append({"role": "user", "content": texto_usuario})
 
-    # 2) primeira chamada (com tools)
-    response = client.chat.complete(
-        model=MODEL,
-        messages=history,
-        tools=TOOLS,
-        tool_choice="auto",
-    )
+    temperature = float(os.getenv("TEMPERATURE", "0.7"))
 
-    msg = response.choices[0].message
+    max_iterations = 10
 
-    # 3) se vier tool_calls
-    tool_calls = getattr(msg, "tool_calls", None)
-    if tool_calls:
-        # IMPORTANTE: guardar a mensagem do assistant que pediu as tools no history
+    for _ in range(max_iterations):
+        response = client.chat.complete(
+            model=MODEL,
+            messages=history,
+            tools=TOOLS,
+            tool_choice="auto",
+            temperature=temperature
+        )
+
+        msg = response.choices[0].message
+        tool_calls = getattr(msg, "tool_calls", None)
+
+        # Se não houver tool call, é resposta final
+        if not tool_calls:
+            content = msg.content or ""
+            history.append({"role": "assistant", "content": content})
+            return content
+
+        # registra mensagem do assistant chamando tool
         history.append({
             "role": "assistant",
-            "content": msg.content or "",
+            "content": msg.content if msg.content is not None else None,
             "tool_calls": [
                 {
                     "id": call.id,
@@ -72,27 +79,24 @@ def chamar_agente_llm(history: list, texto_usuario: str) -> str:
             ],
         })
 
-        # 4) executar tools e adicionar resultados com tool_call_id
+        # executa cada tool chamada
         for call in tool_calls:
-            result = run_tool_call(call)  # salva no banco aqui
+            result = run_tool_call(call)
+
+            tool_content = (
+                result
+                if isinstance(result, str)
+                else json.dumps(result, ensure_ascii=False, default=str)
+            )
 
             history.append({
                 "role": "tool",
-                "tool_call_id": call.id,          
+                "tool_call_id": call.id,
                 "name": call.function.name,
-                "content": json.dumps({"ok": True, "result": result}, ensure_ascii=False),
+                "content": tool_content,
             })
 
-        # 5) segunda chamada: agora o modelo responde “normal”, seguindo seu RAG
-        response2 = client.chat.complete(
-            model=MODEL,
-            messages=history,
-        )
-
-        final_msg = response2.choices[0].message
-        history.append({"role": "assistant", "content": final_msg.content})
-        return final_msg.content
-
-    # sem tool call: resposta normal
-    history.append({"role": "assistant", "content": msg.content})
-    return msg.content
+    # fallback caso entre em loop
+    fallback = "Não consegui concluir sua solicitação agora."
+    history.append({"role": "assistant", "content": fallback})
+    return fallback

@@ -1,0 +1,6 @@
+2026-03-22 00:55:43,320 | ERROR | Query.Query | Erro ao salvar mensagem | 'NoneType' object has no attribute 'execute'
+Traceback (most recent call last):
+  File "/home/ibarra/Dev/Apollo_IA/App/Query/Querys.py", line 10, in salvar_msg
+    db.cursor.execute(
+    ^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'execute'

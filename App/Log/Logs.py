@@ -92,3 +92,5 @@ def create_logger(
 db_logger = create_logger("DataBase", "DataBase", level=logging.INFO, console=False)
 
 ferramentas_logger = create_logger("Ferramentas", "Ferramentas", level=logging.INFO, console=False)
+
+Query_logger = create_logger("Query", "Query", level=logging.INFO, console=False)

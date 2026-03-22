@@ -1,0 +1,11 @@
+2026-03-22 00:55:43,316 | ERROR | DataBase.DataBase | Erro ao conectar no banco
+Traceback (most recent call last):
+  File "/home/ibarra/Dev/Apollo_IA/App/Data/Banco.py", line 29, in connect
+    self.connection = psycopg2.connect(
+                      ^^^^^^^^^^^^^^^^^
+  File "/home/ibarra/Dev/Apollo_IA/venv/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "aws-1-us-east-1.pooler.supabase.com" (18.213.155.45), port 6543 failed: FATAL:  Tenant or user not found
+connection to server at "aws-1-us-east-1.pooler.supabase.com" (18.213.155.45), port 6543 failed: FATAL:  Tenant or user not found
+
