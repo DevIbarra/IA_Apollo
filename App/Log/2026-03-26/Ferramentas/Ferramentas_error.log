@@ -1,0 +1,6 @@
+2026-03-26 01:28:48,953 | ERROR | Ferramentas.Ferramentas | ERRO: Evento salvo no banco, mas falhou no Google Calendar | Data: 2026-03-30 | Horário: 09:00 | Descrição: Reunião | Erro: combine() argument 1 must be datetime.date, not str
+Traceback (most recent call last):
+  File "/home/ibarra/Dev/Apollo_IA/App/Utils/Ferramenta.py", line 83, in agenda_evento_tool
+    inicio_dt = datetime.combine(data, horario)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: combine() argument 1 must be datetime.date, not str

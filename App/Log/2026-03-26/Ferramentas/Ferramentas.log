@@ -1,0 +1,17 @@
+2026-03-26 01:28:48,953 | INFO | Ferramentas.Ferramentas | SUCESSO: Evento salvo no banco | Data: 2026-03-30 | Horário: 09:00 | Descrição: Reunião
+2026-03-26 01:28:48,953 | ERROR | Ferramentas.Ferramentas | ERRO: Evento salvo no banco, mas falhou no Google Calendar | Data: 2026-03-30 | Horário: 09:00 | Descrição: Reunião | Erro: combine() argument 1 must be datetime.date, not str
+Traceback (most recent call last):
+  File "/home/ibarra/Dev/Apollo_IA/App/Utils/Ferramenta.py", line 83, in agenda_evento_tool
+    inicio_dt = datetime.combine(data, horario)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: combine() argument 1 must be datetime.date, not str
+2026-03-26 01:32:24,994 | INFO | Ferramentas.Ferramentas | SUCESSO: Evento salvo no banco | Data: 2026-04-02 | Horário: 09:00:00 | Descrição: Reunião
+2026-03-26 01:32:25,795 | INFO | Ferramentas.Ferramentas | SUCESSO: Evento enviado ao Google Calendar | Data: 2026-04-02 | Horário: 09:00:00 | Descrição: Reunião | Link: https://www.google.com/calendar/event?eid=M2t1MzFmZGYyOWQ5YmFsZWExZWNjdGt1dmMgeGFuZG8uaWJhcnJhQG0
+2026-03-26 01:33:36,577 | INFO | Ferramentas.Ferramentas | SUCESSO: Evento salvo no banco | Data: 2026-04-02 | Horário: 09:00:00 | Descrição: Reunião
+2026-03-26 01:33:37,971 | INFO | Ferramentas.Ferramentas | SUCESSO: Evento enviado ao Google Calendar | Data: 2026-04-02 | Horário: 09:00:00 | Descrição: Reunião | Link: https://www.google.com/calendar/event?eid=N3JtbWRnZjIwN2U5MDR2cWhzcW5vc29pbjQgeGFuZG8uaWJhcnJhQG0
+2026-03-26 01:47:24,320 | INFO | Ferramentas.Ferramentas | SUCESSO: Evento salvo no banco | Data: 2026-04-04 | Horário: 08:00:00 | Descrição: Corrida de Moto
+2026-03-26 01:47:25,350 | INFO | Ferramentas.Ferramentas | SUCESSO: Evento enviado ao Google Calendar | Data: 2026-04-04 | Horário: 08:00:00 | Descrição: Corrida de Moto | Link: https://www.google.com/calendar/event?eid=anZwdHFnaGZ2N2xsa3VjYmY0ZGhoZHBvNDAgeGFuZG8uaWJhcnJhQG0
+2026-03-26 01:50:21,958 | INFO | Ferramentas.Ferramentas | SUCESSO: Evento salvo no banco | Data: 2026-04-05 | Horário: 20:00:00 | Descrição: Encontro
+2026-03-26 01:50:22,659 | INFO | Ferramentas.Ferramentas | SUCESSO: Evento enviado ao Google Calendar | Data: 2026-04-05 | Horário: 20:00:00 | Descrição: Encontro | Link: https://www.google.com/calendar/event?eid=ZzhkdDdqbTlyOHU5ZzkwYTZoczhiZnVlMzggeGFuZG8uaWJhcnJhQG0
+2026-03-26 01:56:57,958 | INFO | Ferramentas.Ferramentas | SUCESSO: Evento salvo no banco | Data: 2026-04-10 | Horário: 20:00:00 | Descrição: Encontro
+2026-03-26 01:56:58,793 | INFO | Ferramentas.Ferramentas | SUCESSO: Evento enviado ao Google Calendar | Data: 2026-04-10 | Horário: 20:00:00 | Descrição: Encontro | Link: https://www.google.com/calendar/event?eid=cjVrbDZnNjJlYmJvYnUyb2MyczZoa25lazAgeGFuZG8uaWJhcnJhQG0
